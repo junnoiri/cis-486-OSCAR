@@ -1,4 +1,4 @@
-# cis-486-OSCAR
+# cis-486-OSCAR - How to say hello ✋ in express.js
 
 # What is Express.js?
 Express.js is a lightweight and flexible web application framework for Node.js.
@@ -19,3 +19,16 @@ v14.16.0
 # Set up Environment
 1. Create a project
 Create a new directory and initialize your npm project in that directory.
+>mkdir my-express-project
+
+>cd my-express-project
+
+>npm init --yes
+
+2. Install Express.js
+Using npm, install Express.js by running the command below.
+>npm install express
+
+3. Create a server
+Create an index.js file and write the code below.
+
