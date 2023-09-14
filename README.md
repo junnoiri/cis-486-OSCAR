@@ -84,7 +84,14 @@ On the other hand, render.com can be used for free with some restrictions.
 
 The points to note about the free plan are that the database can only be saved for 90 days, and the application execution time is limited to 750 hours per month.
 
+# 6. Creating an account and setting before deploying on Render
+Open render.com official page and click "DASHBOARD"
 
+When you sign in using any method, confirm that you can refer to the DashBoard of redner.com, and click "New Web Service" under Web Services.
+
+If you are connected to GitHub, you can check your respective repositories as shown below.
+
+When you have finished entering the above items, click Advanced at the bottom of the page.
 
 
 # References
