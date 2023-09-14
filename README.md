@@ -95,14 +95,15 @@ When you sign in using any method, confirm that you can refer to the DashBoard o
 If you are connected to GitHub, you can check your respective repositories as shown below.
 ![render-image4](images/render-image4.png)
 
-When you have finished entering the above items, click Advanced at the bottom of the page.
+When you have finished entering the items such as a name for your web service, click "Create Web Service" at the bottom of the page. Then, Deploy will start automatically.
 ![render-image5](images/render-image5.png)
 
-This completes the settings before deploying, so click Create Web Service. Then, Deploy will start automatically.
+Be careful with "Start Command". This command runs in the app's root directory and starts its process. You must use the command to start the web server you configured.
+In this case, it is "node app.js".
 ![render-image6](images/render-image6.png)
 
 When Deploy is completed, "Deploy succeeded" will be displayed as shown below.
-![render-image6](images/render-image7.png)
+![render-image7](images/render-image7.png)
 
 # References
 https://expressjs.com/en/starter/installing.html
