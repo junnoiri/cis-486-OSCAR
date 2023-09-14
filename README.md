@@ -88,7 +88,7 @@ The points to note about the free plan are that the database can only be saved f
 Open render.com official page and click "DASHBOARD"
 ![render-image1](images/render-image1.png)
 
-When you sign in using any method, confirm that you can refer to the DashBoard of redner.com, and click "New Web Service" under Web Services.
+When you sign in using any method, confirm that you can refer to the DashBoard of redner.com, and click "Web Service".
 ![render-image2](images/render-image2.png)
 ![render-image3](images/render-image3.png)
 
@@ -97,9 +97,12 @@ If you are connected to GitHub, you can check your respective repositories as sh
 
 When you have finished entering the above items, click Advanced at the bottom of the page.
 ![render-image5](images/render-image5.png)
+
+This completes the settings before deploying, so click Create Web Service. Then, Deploy will start automatically.
 ![render-image6](images/render-image6.png)
 
-
+When Deploy is completed, "Deploy succeeded" will be displayed as shown below.
+![render-image6](images/render-image7.png)
 
 # References
 https://expressjs.com/en/starter/installing.html
@@ -107,10 +110,3 @@ https://expressjs.com/en/starter/installing.html
 https://expressjs.com/en/starter/hello-world.html
 
 https://render.com/
-
-
-
-
-
-
-
