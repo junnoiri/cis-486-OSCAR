@@ -13,41 +13,65 @@ You can also add more advanced functionality using a wealth of third-party modul
 Create a new directory and initialize your npm project in that directory.
 
 bash
->mkdir express-project
->cd express-project
+```bash
+mkdir express-project
+cd express-project
+```
 
 # 2. Install Express.js
 Using npm, install Express.js by running the command below.
 
 bash
->npm install express
+```bash
+npm install express
+```
 
 # 3. Create a server
 Create an app.js file and write the code below to import the modules required to use Express.js.
 
-express.js
+app.js
+```javascript
 const express = require('express');
 const app = express();
+```
 
 Set up a handler to display the "Hello from Express.js" text when the "/" route is accessed.
+
+app.js
+```javascript
+//const express = require('express');
+//const app = express();
+
 app.get('/', (req, res) => {
   res.send('Hello from Express.js');
 });
+```
 
 # 4. Starting the server
 Starts an Express application on the specified port.
 
-express.js
+app.js
+```javascript
+//const express = require('express');
+//const app = express();
+
+//app.get('/', (req, res) => {
+//  res.send('Hello from Express.js');
+//});
+
 const port = 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+```
 
 # 5. Running the application
 Go to your project directory in Terminal and run the command below to start the Express application.
 
 bash
+```bash
 node app.js
+```
 
 When you access http://localhost:3000/ in a web browser, you will see the text "Hello from Express.js".
 
