@@ -1,4 +1,4 @@
-# cis-486-OSCAR - How to say hello ✋ in express.js and show the page on Render
+# cis-486-OSCAR - Say hello ✋ in express.js and show the page on Render
 
 # What is Express.js?
 Express.js is a lightweight and flexible web application framework for Node.js.
